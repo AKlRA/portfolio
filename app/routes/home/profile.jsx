@@ -1,6 +1,6 @@
-import myProfileImg from 'C:/Users/Bhuvan/portfolio/app/assets/my-photo.png';
-import myProfileImgLarge from 'C:/Users/Bhuvan/portfolio/app/assets/my-photo-large.png';
-import myProfileImgPlaceholder from 'C:/Users/Bhuvan/portfolio/app/assets/my-photo-placeholder.png';
+import myProfileImg from '~/assets/my-photo.png';
+import myProfileImgLarge from '~/assets/my-photo-large.png';
+import myProfileImgPlaceholder from '~/assets/my-photo-placeholder.png';
 import { Button } from '~/components/button';
 import { DecoderText } from '~/components/decoder-text';
 import { Divider } from '~/components/divider';
