@@ -1,14 +1,11 @@
 import gamestackTexture2Large from '~/assets/tempknob.png';
-import gamestackTexture2Placeholder from '~/assets/gamestack-login-placeholder.jpg';
-import gamestackTexture2 from '~/assets/gamestack-login-placeholder.jpg';
-import gamestackTextureLarge from '~/assets/home design.png';
-import gamestackTexturePlaceholder from '~/assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from '~/assets/home design.png';
+import gamestackTexture2Placeholder from '~/assets/tempknob.png';
+import gamestackTexture2 from '~/assets/tempknob.png';
 import sliceTextureLarge from '~/assets/kidemy1.png';
-import sliceTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
+import sliceTexturePlaceholder from '~/assets/kidemy1.png';
 import sliceTexture from '~/assets/kidemy1.png';
 import sprTextureLarge from '~/assets/screenshot3.png';
-import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
+import sprTexturePlaceholder from '~/assets/screenshot3.png';
 import sprTexture from '~/assets/screenshot3.png';
 import { Footer } from '~/components/footer';
 import { baseMeta } from '~/utils/meta';

@@ -148,19 +148,32 @@ export function Articles() {
     </header>
   );
 
-  const postList = (
-    <div className={styles.list}>
-      {!isSingleColumn && postsHeader}
-      {posts.map(({ slug, ...post }, index) => (
-        <ArticlesPost key={slug} slug={slug} index={index} {...post} />
-      ))}
-      {Array(2)
-        .fill()
-        .map((skeleton, index) => (
-          <SkeletonPost key={index} index={index} />
-        ))}
-    </div>
+  // Add the education post manually after the mapped posts
+  const educationPost = (
+    <ArticlesPost
+      slug="education"
+      frontmatter={{
+        title: 'Education',
+        abstract: 'A summary of my educational background.',
+        date: '2025-06-10',
+        banner: '/static/education-banner.jpg',
+      }}
+      timecode="00:00:00:00"
+      index={posts.length}
+    />
   );
+
+const postList = (
+  <div className={styles.list}>
+    {!isSingleColumn && postsHeader}
+    {posts.map(({ slug, ...post }, index) => (
+      <ArticlesPost key={slug} slug={slug} index={index} {...post} />
+    ))}
+    {/* Remove this line if education is already in posts */}
+    {/* {educationPost} */}
+    <SkeletonPost index={posts.length + 1} />
+  </div>
+);
 
   const featuredPost = <ArticlesPost {...featured} />;
 
