@@ -1,6 +1,6 @@
-import profileImgLarge from '~/assets/profile-large.jpg';
-import profileImgPlaceholder from '~/assets/profile-placeholder.jpg';
-import profileImg from '~/assets/profile.jpg';
+import myProfileImg from 'C:/Users/Bhuvan/portfolio/app/assets/my-photo.png';
+import myProfileImgLarge from 'C:/Users/Bhuvan/portfolio/app/assets/my-photo-large.png';
+import myProfileImgPlaceholder from 'C:/Users/Bhuvan/portfolio/app/assets/my-photo-placeholder.png';
 import { Button } from '~/components/button';
 import { DecoderText } from '~/components/decoder-text';
 import { Divider } from '~/components/divider';
@@ -21,16 +21,10 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Bhuvan, an aspiring software engineer passionate about building practical solutions with code. I enjoy working across the stack, from cloud automation and DevOps to full-stack web development. I’m always eager to learn new technologies and take on challenging projects that help me grow as a developer.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      When I’m not coding, you’ll find me exploring new tech trends, tinkering with automation, or playing video games. I love collaborating with others and am always open to interesting conversations or opportunities. Curious about my workflow? Check out my <Link href="/uses">uses page</Link>.
     </Text>
   </Fragment>
 );
@@ -55,15 +49,6 @@ export const Profile = ({ id, visible, sectionRef }) => {
           <div className={styles.content} ref={nodeRef}>
             <div className={styles.column}>
               <ProfileText visible={visible} titleId={titleId} />
-              <Button
-                secondary
-                className={styles.button}
-                data-visible={visible}
-                href="/contact"
-                icon="send"
-              >
-                Send me a message
-              </Button>
             </div>
             <div className={styles.column}>
               <div className={styles.tag} aria-hidden>
@@ -78,16 +63,16 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 </div>
               </div>
               <div className={styles.image}>
-                <Image
-                  reveal
-                  delay={100}
-                  placeholder={profileImgPlaceholder}
-                  srcSet={`${profileImg} 480w, ${profileImgLarge} 960w`}
-                  width={960}
-                  height={1280}
-                  sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Me smiling like a goofball at the Qwilr office in Sydney"
-                />
+              <Image
+                reveal
+                delay={100}
+                placeholder={myProfileImgPlaceholder}
+                srcSet={`${myProfileImg} 480w, ${myProfileImgLarge} 960w`}
+                width={960}
+                height={1280}
+                sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
+                alt="A photo of Bhuvan M H"
+              />
                 <svg className={styles.svg} data-visible={visible} viewBox="0 0 136 766">
                   <use href={`${katakana}#katakana-profile`} />
                 </svg>

@@ -38,11 +38,12 @@ export const links = () => [
     type: 'font/woff2',
     crossOrigin: '',
   },
-  { rel: 'manifest', href: '/manifest.json' },
-  { rel: 'icon', href: '/favicon.ico' },
+  { rel: 'manifest', href: '/site.webmanifest' },
+  { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' },
   { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
-  { rel: 'shortcut_icon', href: '/shortcut.png', type: 'image/png', sizes: '64x64' },
-  { rel: 'apple-touch-icon', href: '/icon-256.png', sizes: '256x256' },
+  { rel: 'icon', href: '/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
+  { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180' },
+  { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' },
   { rel: 'author', href: '/humans.txt', type: 'text/plain' },
 ];
 
