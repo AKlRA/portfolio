@@ -2,7 +2,7 @@
   "name": "portfolio",
   "homepage": "https://yourdomain.com",
   "description": "Portfolio site for Bhuvan",
-  "repository": "https://github.com/YOUR_GITHUB_USERNAME/portfolio.git",
+  "repository": "https://github.com/AKlRA/portfolio.git",
   "author": "Bhuvan",
   "sideEffects": false,
   "type": "module",
