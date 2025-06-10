@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Bhuvan's Portfolio</h1>
 
-[![Site preview](/public/site-preview.png)](https://yourdomain.com)
+[![Site preview](/public/portscreenshot.png)](https://yourdomain.com)
 
 Welcome to my personal portfolio! This site showcases some of my projects and skills. Built with [Remix](https://remix.run/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/).
 
