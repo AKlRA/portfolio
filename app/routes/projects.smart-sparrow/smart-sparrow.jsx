@@ -7,7 +7,7 @@ import imageSprBackgroundVolcanismLarge from '~/assets/spr-background-volcanism-
 import imageSprBackgroundVolcanismPlaceholder from '~/assets/spr-background-volcanism-placeholder.jpg';
 import imageSprBackgroundVolcanism from '~/assets/spr-background-volcanism.jpg';
 import backgroundSpr from '~/assets/spr-background.jpg';
-import coordinatorFinalVideo from '~/assets/coordinator final.mp4';
+import coordinatorFinalVideo from 'C:/Users/Bhuvan/Desktop/work/portbackup/portfolio/app/assets/coordinator final.mp4';
 import videoSprMotionPlaceholder from '~/assets/spr-motion-placeholder.jpg';
 import { Footer } from '~/components/footer';
 import { Image } from '~/components/image';
